@@ -1,0 +1,30 @@
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Local environments
+.venv/
+env/
+venv/
+
+# Training outputs
+results/*
+!results/.gitkeep
+!results/model_best.pth
+runs/
+checkpoints/
+
+# Data is kept locally and should not be committed by default.
+data/*
+!data/.gitkeep
+
+# Local submission/export artifacts. The repository keeps source code and
+# results/model_best.pth instead of committing duplicate packaged copies.
+submission_package/
+submission_package.zip
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
